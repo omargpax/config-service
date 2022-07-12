@@ -2,7 +2,7 @@ node {
    def mvnHome
    
    stage('Preparation') {
-       git 'https://github.com/omargpax/services-citse-mini/tree/main/config-service'
+       git 'https://github.com/omargpax/config-service'
        mvnHome = tool 'MAVEN'
    }
    
