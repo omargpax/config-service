@@ -2,7 +2,7 @@ node {
    def mvnHome
    
    stage('Preparation') {
-       git 'https://github.com/omargpax/config-service.git'
+       git branch: 'main', url: 'https://github.com/omargpax/config-service.git'
        mvnHome = tool 'MAVEN'
    }
    
